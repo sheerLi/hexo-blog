@@ -39,17 +39,17 @@ tags:
 > 创建文件  
 > touch a.txt
 
-![](LinuxCommand/touch.png)
+![](touch.png)
 
 > 创建一个空目录  
 > mkdir dir1  
 
-![](LinuxCommand/mkdir1.png)
+![](mkdir1.png)
 
 > 递归创建一个非空目录  
 > mkdir -p dir2/dir3 
 
-![](LinuxCommand/mkdir2.png)
+![](mkdir2.png)
 
 #### 删除
 
@@ -57,12 +57,12 @@ tags:
 > rm a.txt  
 > -f 参数 命令是免确认
 
-![](LinuxCommand/rm1.png)
+![](rm1.png)
 
 > 删除目录（只能删空目录）  
 > rm -rf mkdir2
 
-![](LinuxCommand/rm2.png)  
+![](rm2.png)  
 
 
 #### 编辑
@@ -74,19 +74,19 @@ tags:
 > 复制文件  
 > cp a.txt dir1/  
 
-![](LinuxCommand/cp.png)
+![](cp.png)
 
 > 复制目录  
 > cp -r dir1 dir2/
 
-![](LinuxCommand/cp2.png) 
+![](cp2.png) 
 
 #### 移动
 
 > 将 a.txt 文件移动到 dir2 目录  
 > mv a.txt dir2
 
-![](LinuxCommand/mv1.png)
+![](mv1.png)
 
 #### 查看
 
@@ -119,7 +119,7 @@ tags:
 #### 用户信息文件  
 > more /etc/passwd
 
-![](LinuxCommand/viewuser.png)
+![](viewuser.png)
 
 > 标红意思  
 > 用户名:密码:uid:gid:所属组的名字:家目录:所用shell
@@ -152,7 +152,7 @@ tags:
 > 格式：id username  
 > 例: id LW
 
-![](LinuxCommand/viewuserinfo.png)
+![](viewuserinfo.png)
 
 #### 设置密码
 
@@ -182,7 +182,7 @@ tags:
 
 #### 文件权限详情
 
-![](LinuxCommand/per.png)
+![](per.png)
 
 > 第一位：文件类型，**d**:目录，**-**：文件  
 > 剩下9位，3位一组  
@@ -201,19 +201,19 @@ tags:
 
 > 给其他人添加 写的 权限
 
-![](LinuxCommand/chmod1.png)
+![](chmod1.png)
 
 > 给其他人删除 写的 权限
 
-![](LinuxCommand/chmod2.png)
+![](chmod2.png)
 
 > 给任何人都添加上 可执行 权限  
 
-![](LinuxCommand/chmod3.png)
+![](chmod3.png)
 
 > 给所属者和同组用户删除权限
 
-![](LinuxCommand/chmod4.png)
+![](chmod4.png)
 
 ##### 通过数组修改
 
@@ -226,12 +226,12 @@ tags:
 > 例子：让 **任何用户** 拥有 **全部权限**  
 > 例子：chmod 777 a.txt
 
-![](LinuxCommand/chmod5.png)
+![](chmod5.png)
 
 > 例子：让 **任何用户** 拥有 **读写** 没有 **执行** 的权限  
 > 例子：chmod 666 a.txt
 
-![](LinuxCommand/chmod6.png)
+![](chmod6.png)
 
 #### 修改文件 所有者 和 所属组
 
@@ -239,7 +239,7 @@ tags:
 > 参数： -R 递归修改所有的文件  
 > 例：chown -R root:root b
 
-![](LinuxCommand/chown.png)
+![](chown.png)
 
 ### 常见符号
 
@@ -256,7 +256,7 @@ tags:
 > 用户的家目录  
 > 例如： cd ~
 
-![](LinuxCommand/gohome.png)
+![](gohome.png)
 
 #### |
 
@@ -271,7 +271,7 @@ tags:
 
 > 追加到某个文件
 
-![](LinuxCommand/override.png)
+![](override.png)
 
 ### 文本编辑 vi / vim
 
@@ -328,12 +328,12 @@ tags:
 > 执行 visudo 命令  
 > 添加如下配置
 
-![](LinuxCommand/visudo.png)
+![](visudo.png)
 
 > 普通用户如果使用额外赋予的权限  
 > sudo 额外权限名
 
-![](LinuxCommand/sudo.png)
+![](sudo.png)
 
 #### man 
 
@@ -346,14 +346,14 @@ tags:
 > 例： wc a.txt   
 > 结果：行 单词书 字符数 文件名
 
-![](LinuxCommand/wc.png)
+![](wc.png)
 
 #### du
 
 > 文件大小统计  
 > du -a.txt/
 
-![](LinuxCommand/du.png)
+![](du.png)
 
 ### 系统管理命令
 
@@ -369,7 +369,7 @@ tags:
 > id:3:initdefault:  启动linux，不启动图形化界面  
 > init 5:恢复图形化界面
 
-![](LinuxCommand/option.png)
+![](option.png)
 
 #### 重启
 
@@ -389,12 +389,12 @@ tags:
 > chkconfig iptables –list  
 > 结果：2~5都是on :开机启动
 
-![](LinuxCommand/chkconfig.png)
+![](chkconfig.png)
 
 > 设置开机是否启动  
 > chkconfig iptables off|on
 
-![](LinuxCommand/chkconfig2.png)
+![](chkconfig2.png)
 
 ### 进程管理
 
@@ -413,7 +413,7 @@ tags:
 > vi /etc/selinux/config  
 > 重启成效
 
-![](LinuxCommand/redhatsecurity.png)
+![](redhatsecurity.png)
 
 ### 压缩管理
 

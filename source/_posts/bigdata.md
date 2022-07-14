@@ -35,19 +35,19 @@ HOSTNAME=bigdata01-huadian.com
 > 1.打开 **VMware** -> 编辑 -> 虚拟网络编辑器  
 > 2.将 VMware 当成一个路由器使用，设置路由器网段 **192.168.59.0**
 
-![](bigdata/network.png)
+![](network.png)
 
 > 设置网络方式  
 > 1.打开 **Linux** 中 **System** -> **Preferences** -> **Network Connections**  
 > 2.使用图形化界面操作将 ip 设置成 **192.168.59.250**
 
-![](bigdata/network2.png)  
+![](network2.png)  
 
 ### 重启机器
 > 执行命令 reboot 命令  
 > 使用 **ifconfig** 查看
 
-![](bigdata/network3.png)
+![](network3.png)
 
 ### 网络映射
 
@@ -65,7 +65,7 @@ vi /etc/hosts
 > 终端中 **ping bigdata01-huadian.com** 
 > 出现以下结果表示成功
 
-![](bigdata/network4.png)
+![](network4.png)
 
 
 > (在 **windows** 上执行)   
@@ -78,5 +78,5 @@ vi /etc/hosts
 
 > 在 **cmd** 中 **ping bigdata01-huadian.com**
 
-![](bigdata/network5.png)
+![](network5.png)
 

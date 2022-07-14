@@ -44,7 +44,7 @@ tags:
 
 附上一张官网 hadoop 模块图  
 
-![](hadoopIntro/modules.png)
+![](modules.png)
 
 > common  
 
@@ -56,7 +56,7 @@ tags:
 主节点： **namenode** 决定数据存储到哪个 **datanode**  
 从节点： datanode 真正存储数据的  
 
-![](hadoopIntro/hdfs.png)
+![](hdfs.png)
 
 > YARN  
 
@@ -74,7 +74,7 @@ tags:
 4.reduce: reduce task   
 　　合并所有的Map Task 结果
 
-![](hadoopIntro/mapreduce.png)
+![](mapreduce.png)
 
 总结：  
 HDFS: namenode/datanode  

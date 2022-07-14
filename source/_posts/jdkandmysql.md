@@ -36,25 +36,25 @@ tags:
 > **步骤 1**  
 > 将 jdk 的包通过 远程控制工具 SearchSRC 上传到 Linux 虚拟机中
 
-![](jdkandmysql/upload.png)
+![](upload.png)
 
 > **步骤 2**  
 > 使用 tar –zxvf jdk-8u91-linux-x64.tar.gz  -C  ./ 解压到当前文件夹
 
-![](jdkandmysql/processing.png)
+![](processing.png)
 
 > 查看 test 文件夹
 
-![](jdkandmysql/jdkdeperate.png)
+![](jdkdeperate.png)
 
 > **步骤 3**  
 > sudo vi /etc/profile 配置环境变量
 
-![](jdkandmysql/javaenvironment.png)
+![](javaenvironment.png)
 
 > 保存退出后 source /etc/profile 使其生效
 
-![](jdkandmysql/jdkcomple.png)
+![](jdkcomple.png)
 
 ### 安装 mysql
 
@@ -62,22 +62,22 @@ tags:
 > 检查是否已经安装 mysql
 > 命令: rpm -qa | grep mysql
 
-![](jdkandmysql/checkmysql.png)
+![](checkmysql.png)
 
 > 卸载依赖  
 > 命令：sudo rpm -e  --nodeps mysql-libs-5.1.66-2.el6_3.x86_64
 
-![](jdkandmysql/uninstallmysql.png)
+![](uninstallmysql.png)
 
 > 安装mysql  
 > 命令：sudo yum install -y mysql-server
 
-![](jdkandmysql/installComple.png)
+![](installComple.png)
 
 > 启动 mysql 服务  
 > 命令: sudo service mysqld start
 
-![](jdkandmysql/startmysql.png)
+![](startmysql.png)
 
 > 修改 mysql 密码为 123456  
 > 命令：/usr/bin/mysqladmin -u root password '123456'
@@ -85,16 +85,16 @@ tags:
 > 登录 mysql  
 > 命令：mysql -u root -p123456
 
-![](jdkandmysql/loginmysql.png)
+![](loginmysql.png)
 
 > 展示数据库 
 > 命令：show databases
 
-![](jdkandmysql/showdatabases.png)
+![](showdatabases.png)
 
 > 设置开机启动 
 
-![](jdkandmysql/startkaiji.png)
+![](startkaiji.png)
 
 经过以上步骤，jdk 和 mysql 都安装完成!
 
